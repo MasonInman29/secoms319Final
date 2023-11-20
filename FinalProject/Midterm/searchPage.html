@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<header>
+    <h1>
+      <center> <u>The Restaurant</u></center>
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="drinks.html">Drinks</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href = "searchPage.html">Search</a></li>
+      </ul>
+    </nav>
+  </header>
+<body>
+    <div id="menuItem"></div>
+    <form id="my_form">
+        <p>Item name: <input type="text" name="inputItemName" value="search here"></p>
+        <button type="button" onclick="getInputValue();">Search the menu</button>
+    </form>
+
+    <script src="./search.js"></script>
+</body>
+</html>
